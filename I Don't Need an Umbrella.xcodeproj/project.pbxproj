@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F54349119A7A56D00AA4EC8 /* ABouquetOfThistles.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F54348B19A7A56D00AA4EC8 /* ABouquetOfThistles.wav */; };
+		6F54349219A7A56D00AA4EC8 /* WaterCloud.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F54348C19A7A56D00AA4EC8 /* WaterCloud.wav */; };
+		6F54349319A7A56D00AA4EC8 /* PeacefulRoads.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F54348D19A7A56D00AA4EC8 /* PeacefulRoads.wav */; };
+		6F54349419A7A56D00AA4EC8 /* TinyTickles.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F54348E19A7A56D00AA4EC8 /* TinyTickles.wav */; };
+		6F54349519A7A56D00AA4EC8 /* Funny_Steps.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F54348F19A7A56D00AA4EC8 /* Funny_Steps.wav */; };
+		6F54349619A7A56D00AA4EC8 /* MickeyMouse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F54349019A7A56D00AA4EC8 /* MickeyMouse.wav */; };
+		6F7C21F2199AF3E900A6296B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C21F1199AF3E900A6296B /* Foundation.framework */; };
+		6F7C21F4199AF3E900A6296B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C21F3199AF3E900A6296B /* CoreGraphics.framework */; };
+		6F7C21F6199AF3E900A6296B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C21F5199AF3E900A6296B /* UIKit.framework */; };
+		6F7C21F8199AF3E900A6296B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C21F7199AF3E900A6296B /* SpriteKit.framework */; };
+		6F7C21FE199AF3E900A6296B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C21FC199AF3E900A6296B /* InfoPlist.strings */; };
+		6F7C2200199AF3E900A6296B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C21FF199AF3E900A6296B /* main.m */; };
+		6F7C2207199AF3E900A6296B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C2205199AF3E900A6296B /* Main.storyboard */; };
+		6F7C2211199AF3E900A6296B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C2210199AF3E900A6296B /* Images.xcassets */; };
+		6F7C2218199AF3E900A6296B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C2217199AF3E900A6296B /* XCTest.framework */; };
+		6F7C2219199AF3E900A6296B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C21F1199AF3E900A6296B /* Foundation.framework */; };
+		6F7C221A199AF3E900A6296B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C21F5199AF3E900A6296B /* UIKit.framework */; };
+		6F7C2222199AF3E900A6296B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C2220199AF3E900A6296B /* InfoPlist.strings */; };
+		6F7C2224199AF3E900A6296B /* I_Don_t_Need_an_UmbrellaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C2223199AF3E900A6296B /* I_Don_t_Need_an_UmbrellaTests.m */; };
+		6F7C2250199AF4B700A6296B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C2243199AF4B700A6296B /* AppDelegate.m */; };
+		6F7C2251199AF4B700A6296B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C2245199AF4B700A6296B /* ViewController.m */; };
+		6F7C2252199AF4B700A6296B /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C2247199AF4B700A6296B /* MyScene.m */; };
+		6F7C2253199AF4B700A6296B /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C2249199AF4B700A6296B /* Background.m */; };
+		6F7C2254199AF4B700A6296B /* InitialScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C224B199AF4B700A6296B /* InitialScene.m */; };
+		6F7C2255199AF4B700A6296B /* Poop.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C224D199AF4B700A6296B /* Poop.m */; };
+		6F7C2256199AF4B700A6296B /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C224F199AF4B700A6296B /* Player.m */; };
+		6F7C225E199AF4E600A6296B /* waterdroplet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C2257199AF4E600A6296B /* waterdroplet.wav */; };
+		6F7C2270199AF66200A6296B /* PlayerFall.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C226C199AF66200A6296B /* PlayerFall.atlas */; };
+		6F7C2271199AF66200A6296B /* PlayerRunLeft.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C226D199AF66200A6296B /* PlayerRunLeft.atlas */; };
+		6F7C2272199AF66200A6296B /* PlayerStance.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C226E199AF66200A6296B /* PlayerStance.atlas */; };
+		6F7C2273199AF66200A6296B /* PlayerRunRight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C226F199AF66200A6296B /* PlayerRunRight.atlas */; };
+		6F7C2275199AF72400A6296B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C2274199AF72400A6296B /* AVFoundation.framework */; };
+		6F7C2277199AF72900A6296B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C2276199AF72900A6296B /* AudioToolbox.framework */; };
+		6F7C2279199AF73100A6296B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C2278199AF73100A6296B /* Social.framework */; };
+		6F7C227B199AF73A00A6296B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C227A199AF73A00A6296B /* iAd.framework */; };
+		6F7C227D199AF75400A6296B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7C227C199AF75400A6296B /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F7C221B199AF3E900A6296B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F7C21E6199AF3E900A6296B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F7C21ED199AF3E900A6296B;
+			remoteInfo = "I Don't Need an Umbrella";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F54348B19A7A56D00AA4EC8 /* ABouquetOfThistles.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ABouquetOfThistles.wav; sourceTree = "<group>"; };
+		6F54348C19A7A56D00AA4EC8 /* WaterCloud.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WaterCloud.wav; sourceTree = "<group>"; };
+		6F54348D19A7A56D00AA4EC8 /* PeacefulRoads.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PeacefulRoads.wav; sourceTree = "<group>"; };
+		6F54348E19A7A56D00AA4EC8 /* TinyTickles.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TinyTickles.wav; sourceTree = "<group>"; };
+		6F54348F19A7A56D00AA4EC8 /* Funny_Steps.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Funny_Steps.wav; sourceTree = "<group>"; };
+		6F54349019A7A56D00AA4EC8 /* MickeyMouse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MickeyMouse.wav; sourceTree = "<group>"; };
+		6F7C21EE199AF3E900A6296B /* I Don't Need an Umbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Don't Need an Umbrella.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7C21F1199AF3E900A6296B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F7C21F3199AF3E900A6296B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F7C21F5199AF3E900A6296B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F7C21F7199AF3E900A6296B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		6F7C21FB199AF3E900A6296B /* I Don't Need an Umbrella-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "I Don't Need an Umbrella-Info.plist"; sourceTree = "<group>"; };
+		6F7C21FD199AF3E900A6296B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F7C21FF199AF3E900A6296B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F7C2201199AF3E900A6296B /* I Don't Need an Umbrella-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "I Don't Need an Umbrella-Prefix.pch"; sourceTree = "<group>"; };
+		6F7C2206199AF3E900A6296B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F7C2210199AF3E900A6296B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F7C2216199AF3E900A6296B /* I Don't Need an UmbrellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Don't Need an UmbrellaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7C2217199AF3E900A6296B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F7C221F199AF3E900A6296B /* I Don't Need an UmbrellaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "I Don't Need an UmbrellaTests-Info.plist"; sourceTree = "<group>"; };
+		6F7C2221199AF3E900A6296B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F7C2223199AF3E900A6296B /* I_Don_t_Need_an_UmbrellaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = I_Don_t_Need_an_UmbrellaTests.m; sourceTree = "<group>"; };
+		6F7C2242199AF4B700A6296B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F7C2243199AF4B700A6296B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F7C2244199AF4B700A6296B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F7C2245199AF4B700A6296B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F7C2246199AF4B700A6296B /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		6F7C2247199AF4B700A6296B /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		6F7C2248199AF4B700A6296B /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.h; sourceTree = "<group>"; };
+		6F7C2249199AF4B700A6296B /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Background.m; sourceTree = "<group>"; };
+		6F7C224A199AF4B700A6296B /* InitialScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialScene.h; sourceTree = "<group>"; };
+		6F7C224B199AF4B700A6296B /* InitialScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialScene.m; sourceTree = "<group>"; };
+		6F7C224C199AF4B700A6296B /* Poop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poop.h; sourceTree = "<group>"; };
+		6F7C224D199AF4B700A6296B /* Poop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Poop.m; sourceTree = "<group>"; };
+		6F7C224E199AF4B700A6296B /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		6F7C224F199AF4B700A6296B /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		6F7C2257199AF4E600A6296B /* waterdroplet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = waterdroplet.wav; sourceTree = "<group>"; };
+		6F7C2266199AF54300A6296B /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		6F7C226C199AF66200A6296B /* PlayerFall.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerFall.atlas; sourceTree = "<group>"; };
+		6F7C226D199AF66200A6296B /* PlayerRunLeft.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerRunLeft.atlas; sourceTree = "<group>"; };
+		6F7C226E199AF66200A6296B /* PlayerStance.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerStance.atlas; sourceTree = "<group>"; };
+		6F7C226F199AF66200A6296B /* PlayerRunRight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerRunRight.atlas; sourceTree = "<group>"; };
+		6F7C2274199AF72400A6296B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6F7C2276199AF72900A6296B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6F7C2278199AF73100A6296B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		6F7C227A199AF73A00A6296B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		6F7C227C199AF75400A6296B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F7C21EB199AF3E900A6296B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7C227D199AF75400A6296B /* GameKit.framework in Frameworks */,
+				6F7C227B199AF73A00A6296B /* iAd.framework in Frameworks */,
+				6F7C2279199AF73100A6296B /* Social.framework in Frameworks */,
+				6F7C2277199AF72900A6296B /* AudioToolbox.framework in Frameworks */,
+				6F7C2275199AF72400A6296B /* AVFoundation.framework in Frameworks */,
+				6F7C21F4199AF3E900A6296B /* CoreGraphics.framework in Frameworks */,
+				6F7C21F6199AF3E900A6296B /* UIKit.framework in Frameworks */,
+				6F7C21F8199AF3E900A6296B /* SpriteKit.framework in Frameworks */,
+				6F7C21F2199AF3E900A6296B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7C2213199AF3E900A6296B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7C2218199AF3E900A6296B /* XCTest.framework in Frameworks */,
+				6F7C221A199AF3E900A6296B /* UIKit.framework in Frameworks */,
+				6F7C2219199AF3E900A6296B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F7C21E5199AF3E900A6296B = {
+			isa = PBXGroup;
+			children = (
+				6F7C21F9199AF3E900A6296B /* I Don't Need an Umbrella */,
+				6F7C221D199AF3E900A6296B /* I Don't Need an UmbrellaTests */,
+				6F7C21F0199AF3E900A6296B /* Frameworks */,
+				6F7C21EF199AF3E900A6296B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F7C21EF199AF3E900A6296B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F7C21EE199AF3E900A6296B /* I Don't Need an Umbrella.app */,
+				6F7C2216199AF3E900A6296B /* I Don't Need an UmbrellaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F7C21F0199AF3E900A6296B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7C227C199AF75400A6296B /* GameKit.framework */,
+				6F7C227A199AF73A00A6296B /* iAd.framework */,
+				6F7C2278199AF73100A6296B /* Social.framework */,
+				6F7C2276199AF72900A6296B /* AudioToolbox.framework */,
+				6F7C2274199AF72400A6296B /* AVFoundation.framework */,
+				6F7C21F1199AF3E900A6296B /* Foundation.framework */,
+				6F7C21F3199AF3E900A6296B /* CoreGraphics.framework */,
+				6F7C21F5199AF3E900A6296B /* UIKit.framework */,
+				6F7C21F7199AF3E900A6296B /* SpriteKit.framework */,
+				6F7C2217199AF3E900A6296B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F7C21F9199AF3E900A6296B /* I Don't Need an Umbrella */ = {
+			isa = PBXGroup;
+			children = (
+				6F7C2205199AF3E900A6296B /* Main.storyboard */,
+				6F7C2266199AF54300A6296B /* common.h */,
+				6F7C2242199AF4B700A6296B /* AppDelegate.h */,
+				6F7C2243199AF4B700A6296B /* AppDelegate.m */,
+				6F7C2244199AF4B700A6296B /* ViewController.h */,
+				6F7C2245199AF4B700A6296B /* ViewController.m */,
+				6F7C2246199AF4B700A6296B /* MyScene.h */,
+				6F7C2247199AF4B700A6296B /* MyScene.m */,
+				6F7C2248199AF4B700A6296B /* Background.h */,
+				6F7C2249199AF4B700A6296B /* Background.m */,
+				6F7C224A199AF4B700A6296B /* InitialScene.h */,
+				6F7C224B199AF4B700A6296B /* InitialScene.m */,
+				6F7C224C199AF4B700A6296B /* Poop.h */,
+				6F7C224D199AF4B700A6296B /* Poop.m */,
+				6F7C224E199AF4B700A6296B /* Player.h */,
+				6F7C224F199AF4B700A6296B /* Player.m */,
+				6F7C226C199AF66200A6296B /* PlayerFall.atlas */,
+				6F7C226D199AF66200A6296B /* PlayerRunLeft.atlas */,
+				6F7C226E199AF66200A6296B /* PlayerStance.atlas */,
+				6F7C226F199AF66200A6296B /* PlayerRunRight.atlas */,
+				6F7C2210199AF3E900A6296B /* Images.xcassets */,
+				6F7C2265199AF4E800A6296B /* Sound */,
+				6F7C21FA199AF3E900A6296B /* Supporting Files */,
+			);
+			path = "I Don't Need an Umbrella";
+			sourceTree = "<group>";
+		};
+		6F7C21FA199AF3E900A6296B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F7C21FB199AF3E900A6296B /* I Don't Need an Umbrella-Info.plist */,
+				6F7C21FC199AF3E900A6296B /* InfoPlist.strings */,
+				6F7C21FF199AF3E900A6296B /* main.m */,
+				6F7C2201199AF3E900A6296B /* I Don't Need an Umbrella-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F7C221D199AF3E900A6296B /* I Don't Need an UmbrellaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F7C2223199AF3E900A6296B /* I_Don_t_Need_an_UmbrellaTests.m */,
+				6F7C221E199AF3E900A6296B /* Supporting Files */,
+			);
+			path = "I Don't Need an UmbrellaTests";
+			sourceTree = "<group>";
+		};
+		6F7C221E199AF3E900A6296B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F7C221F199AF3E900A6296B /* I Don't Need an UmbrellaTests-Info.plist */,
+				6F7C2220199AF3E900A6296B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F7C2265199AF4E800A6296B /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				6F54348B19A7A56D00AA4EC8 /* ABouquetOfThistles.wav */,
+				6F54348C19A7A56D00AA4EC8 /* WaterCloud.wav */,
+				6F54348D19A7A56D00AA4EC8 /* PeacefulRoads.wav */,
+				6F54348E19A7A56D00AA4EC8 /* TinyTickles.wav */,
+				6F54348F19A7A56D00AA4EC8 /* Funny_Steps.wav */,
+				6F54349019A7A56D00AA4EC8 /* MickeyMouse.wav */,
+				6F7C2257199AF4E600A6296B /* waterdroplet.wav */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F7C21ED199AF3E900A6296B /* I Don't Need an Umbrella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7C2227199AF3E900A6296B /* Build configuration list for PBXNativeTarget "I Don't Need an Umbrella" */;
+			buildPhases = (
+				6F7C21EA199AF3E900A6296B /* Sources */,
+				6F7C21EB199AF3E900A6296B /* Frameworks */,
+				6F7C21EC199AF3E900A6296B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I Don't Need an Umbrella";
+			productName = "I Don't Need an Umbrella";
+			productReference = 6F7C21EE199AF3E900A6296B /* I Don't Need an Umbrella.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F7C2215199AF3E900A6296B /* I Don't Need an UmbrellaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7C222A199AF3E900A6296B /* Build configuration list for PBXNativeTarget "I Don't Need an UmbrellaTests" */;
+			buildPhases = (
+				6F7C2212199AF3E900A6296B /* Sources */,
+				6F7C2213199AF3E900A6296B /* Frameworks */,
+				6F7C2214199AF3E900A6296B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F7C221C199AF3E900A6296B /* PBXTargetDependency */,
+			);
+			name = "I Don't Need an UmbrellaTests";
+			productName = "I Don't Need an UmbrellaTests";
+			productReference = 6F7C2216199AF3E900A6296B /* I Don't Need an UmbrellaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F7C21E6199AF3E900A6296B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chan Park";
+				TargetAttributes = {
+					6F7C21ED199AF3E900A6296B = {
+						DevelopmentTeam = 6Z5W2427H5;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
+					6F7C2215199AF3E900A6296B = {
+						TestTargetID = 6F7C21ED199AF3E900A6296B;
+					};
+				};
+			};
+			buildConfigurationList = 6F7C21E9199AF3E900A6296B /* Build configuration list for PBXProject "I Don't Need an Umbrella" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F7C21E5199AF3E900A6296B;
+			productRefGroup = 6F7C21EF199AF3E900A6296B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F7C21ED199AF3E900A6296B /* I Don't Need an Umbrella */,
+				6F7C2215199AF3E900A6296B /* I Don't Need an UmbrellaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F7C21EC199AF3E900A6296B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F54349519A7A56D00AA4EC8 /* Funny_Steps.wav in Resources */,
+				6F54349319A7A56D00AA4EC8 /* PeacefulRoads.wav in Resources */,
+				6F54349219A7A56D00AA4EC8 /* WaterCloud.wav in Resources */,
+				6F7C2270199AF66200A6296B /* PlayerFall.atlas in Resources */,
+				6F7C2273199AF66200A6296B /* PlayerRunRight.atlas in Resources */,
+				6F54349119A7A56D00AA4EC8 /* ABouquetOfThistles.wav in Resources */,
+				6F7C21FE199AF3E900A6296B /* InfoPlist.strings in Resources */,
+				6F7C225E199AF4E600A6296B /* waterdroplet.wav in Resources */,
+				6F7C2211199AF3E900A6296B /* Images.xcassets in Resources */,
+				6F7C2272199AF66200A6296B /* PlayerStance.atlas in Resources */,
+				6F7C2271199AF66200A6296B /* PlayerRunLeft.atlas in Resources */,
+				6F54349419A7A56D00AA4EC8 /* TinyTickles.wav in Resources */,
+				6F54349619A7A56D00AA4EC8 /* MickeyMouse.wav in Resources */,
+				6F7C2207199AF3E900A6296B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7C2214199AF3E900A6296B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7C2222199AF3E900A6296B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F7C21EA199AF3E900A6296B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7C2256199AF4B700A6296B /* Player.m in Sources */,
+				6F7C2252199AF4B700A6296B /* MyScene.m in Sources */,
+				6F7C2251199AF4B700A6296B /* ViewController.m in Sources */,
+				6F7C2250199AF4B700A6296B /* AppDelegate.m in Sources */,
+				6F7C2255199AF4B700A6296B /* Poop.m in Sources */,
+				6F7C2253199AF4B700A6296B /* Background.m in Sources */,
+				6F7C2200199AF3E900A6296B /* main.m in Sources */,
+				6F7C2254199AF4B700A6296B /* InitialScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7C2212199AF3E900A6296B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7C2224199AF3E900A6296B /* I_Don_t_Need_an_UmbrellaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F7C221C199AF3E900A6296B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F7C21ED199AF3E900A6296B /* I Don't Need an Umbrella */;
+			targetProxy = 6F7C221B199AF3E900A6296B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F7C21FC199AF3E900A6296B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7C21FD199AF3E900A6296B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F7C2205199AF3E900A6296B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7C2206199AF3E900A6296B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F7C2220199AF3E900A6296B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7C2221199AF3E900A6296B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F7C2225199AF3E900A6296B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F7C2226199AF3E900A6296B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F7C2228199AF3E900A6296B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "I Don't Need an Umbrella/I Don't Need an Umbrella-Prefix.pch";
+				INFOPLIST_FILE = "I Don't Need an Umbrella/I Don't Need an Umbrella-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F7C2229199AF3E900A6296B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "I Don't Need an Umbrella/I Don't Need an Umbrella-Prefix.pch";
+				INFOPLIST_FILE = "I Don't Need an Umbrella/I Don't Need an Umbrella-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F7C222B199AF3E900A6296B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/I Don't Need an Umbrella.app/I Don't Need an Umbrella";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "I Don't Need an Umbrella/I Don't Need an Umbrella-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "I Don't Need an UmbrellaTests/I Don't Need an UmbrellaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6F7C222C199AF3E900A6296B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/I Don't Need an Umbrella.app/I Don't Need an Umbrella";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "I Don't Need an Umbrella/I Don't Need an Umbrella-Prefix.pch";
+				INFOPLIST_FILE = "I Don't Need an UmbrellaTests/I Don't Need an UmbrellaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F7C21E9199AF3E900A6296B /* Build configuration list for PBXProject "I Don't Need an Umbrella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7C2225199AF3E900A6296B /* Debug */,
+				6F7C2226199AF3E900A6296B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7C2227199AF3E900A6296B /* Build configuration list for PBXNativeTarget "I Don't Need an Umbrella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7C2228199AF3E900A6296B /* Debug */,
+				6F7C2229199AF3E900A6296B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7C222A199AF3E900A6296B /* Build configuration list for PBXNativeTarget "I Don't Need an UmbrellaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7C222B199AF3E900A6296B /* Debug */,
+				6F7C222C199AF3E900A6296B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F7C21E6199AF3E900A6296B /* Project object */;
+}
